@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 4. Configure the database:
 - Create a MySQL database named `todo_db`
-- Update the database connection string in `app/database.py`:
+- Update the database connection string in `app/database.py` With Your Username And Password:
 ```python
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://username:password@localhost/todo_db"
 ```
