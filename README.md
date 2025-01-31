@@ -119,19 +119,6 @@ todo_app/
 │       ├── __init__.py
 │       ├── todos.py
 │       └── users.py
-```
-
-## Development
-
-To run tests:
-```bash
-pytest
-```
-
-To run with auto-reload for development:
-```bash
-uvicorn app.main:app --reload
-```
 
 ## Security Considerations
 
